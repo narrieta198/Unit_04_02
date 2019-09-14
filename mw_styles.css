@@ -40,6 +40,7 @@ h1, h2{
 
 
 /* Navigation Styles */
+/*removes list of markers */
 nav > ul{
    text-decoration:none;
    line-height:2em;
@@ -49,6 +50,7 @@ nav a:link, nav a:visited{
    text-decoration: none;
    color: rgb(101, 125, 221);
 }
+/* Changes color of link when hovered over it*/
 nav a:hover{
    color: rgb(212, 35, 35);
 }
@@ -77,6 +79,7 @@ aside#tour_ininerary h2{
 aside#tour_summary p{
    font-size:0.8em;
 }
+/* using the pseudo class*/
 aside#tour_summary h2:nth-of-type(odd){
    color:rgb(79, 91,40);
 }
