@@ -1,0 +1,71 @@
+﻿@charset "UTF-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Bike the Mountains Tour Style Sheet
+   Author: Nayeli Arrieta 
+   Date:   9/13/19
+   
+   Filename: mw_styles.css
+
+*/
+
+
+/* Structural Styles */
+html{
+   color:rgb(173, 189, 227);
+}
+body{
+   color:rgb(227, 210, 173);
+   font-family: 'Century Gothic', sans-serif;
+}
+footer{
+   background-color: rgb(208, 184, 109);
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+address{
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+/* Heading Styles */
+h1, h2{
+   font-weight:normal;
+}
+
+
+/* Navigation Styles */
+nav > ul{
+   text-decoration:none;
+   line-height:2em;
+   font-size:0.9em;
+}
+nav a:link, nav a:visited{
+   text-decoration: none;
+   color: rgb(101, 125, 221);
+}
+nav a:hover{
+   color: rgb(212, 35, 35);
+}
+nav a:active{
+   color: rgb(212, 35, 35);
+}
+/* Article Styles */
+article#tour_summary h1{
+   font-size: 2.2em;
+   letter-spacing: 0.2em;
+}
+
+
+
+/* Aside Styles */
+
+
+
+/* Blockquote Styles */
+
