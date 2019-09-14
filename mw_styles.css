@@ -77,5 +77,27 @@ aside#tour_ininerary h2{
 aside#tour_summary p{
    font-size:0.8em;
 }
+aside#tour_summary h2:nth-of-type(odd){
+   color:rgb(79, 91,40);
+}
+aside#tour_summary p:nth-of-type(odd){
+   color: rgb(79, 91,40);
+}
+aside#tour_summary h2:nth-of-type(even){
+   color:rgb(81,95,175);
+}
+aside#tour_summary p:nth-of-type(even){
+   color:rgb(81,95,175);
+}
 /* Blockquote Styles */
-
+blockquote{
+   background-color: rgb(173, 189, 227);
+   color: rgb(255,255, 255);
+   opacity: 0.65;
+}
+blockquote p{
+   padding-top: 2.5px;
+   padding-bottom: 2.5px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
