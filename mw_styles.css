@@ -15,10 +15,10 @@
 
 /* Structural Styles */
 html{
-   color:rgb(173, 189, 227);
+   background-color:rgb(173, 189, 227);
 }
 body{
-   color:rgb(227, 210, 173);
+   background-color:rgb(227, 210, 173);
    font-family: 'Century Gothic', sans-serif;
 }
 footer{
@@ -60,12 +60,22 @@ article#tour_summary h1{
    font-size: 2.2em;
    letter-spacing: 0.2em;
 }
-
-
-
+article#tour_summary p{
+   font-size:1.1em;
+}
+article#tour_summary p:first-of-type::first-line{
+   font-size: 1.2em;
+   font-variant: small-caps;
+}
 /* Aside Styles */
-
-
-
+aside#tour_itineray h1{
+      font-size:1.2em;
+}
+aside#tour_ininerary h2{
+   font-size: 0.9em;
+}
+aside#tour_summary p{
+   font-size:0.8em;
+}
 /* Blockquote Styles */
 
